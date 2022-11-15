@@ -91,7 +91,7 @@ You can configure the minimum security that is used for programs that use the NT
 
 3. On the Edit menu, click Add Value, and then add the following registry value:  
     Value Name: NtlmMinClientSec  
-    Data Type: REG_WORD  
+    Data Type: REG_DWORD  
     Value: one of the values below:  
 
     - 0x00000010- Message integrity
